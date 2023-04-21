@@ -13,19 +13,27 @@ body {
 
 h2 {
   display: block;
+  margin: auto auto auto auto;
   font-family: "Titillium Web", sans-serif;
-  font-size: auto;
-  margin: 0 5px 10px;
-  padding: 10px;
+  font-size: 3rem;
+  font-weight: 500;
   text-align: center;
+  text-shadow: 5px 5px 7px #000000
 }
-
+.line {
+  border-top: 1px solid #b9ad69;
+  height: 1px;
+  margin: auto 0 auto;
+  max-width: auto;
+  box-shadow: 3px 1px 5px 1px #000000;
+}
 h3 {
   display: block;
   font-family: "Roboto", sans-serif;
-  font-size: auto;
-  margin: 0 5px 10px;
-  padding: 10px;
+  font-size: 1.5rem;
+  font-weight:500;
+  margin: auto auto auto auto;
+  padding: 20px;
   text-align: center;
 }
 
@@ -34,12 +42,13 @@ img {
   margin: auto;
   width: auto;
   border-radius: 1rem;
-  box-shadow: 3px 1px 5px 1px #190368;
+  box-shadow: 3px 1px 5px 1px #000000;
 }
 
 b {
   font-family: "DM Serif Display", sans-serif;
   font-size: auto;
+  font-weight: 600;
 }
 
 p {

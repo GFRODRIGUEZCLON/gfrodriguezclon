@@ -31,7 +31,9 @@ function DisplayLocations() {
   if (error) return <p>Error : {error.message}</p>;
 
   return data.locations.map(({ id, name, description, photo }) => (
+    
     <div key={id}>
+      <div className="line"></div>
       <h3>{name}</h3>
       <img width="400" height="250" alt="location-reference" src={`${photo}`} />
       <br />
