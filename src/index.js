@@ -5,7 +5,7 @@ import App from "./App";
 
 const client = new ApolloClient({
   uri: "https://flyby-router-demo.herokuapp.com/",
-  cache: new InMemoryCache()
+  cache: new InMemoryCache(),
 });
 
 // Supported in React 18+
