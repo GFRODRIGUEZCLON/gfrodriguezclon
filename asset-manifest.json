@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gfrodriguezclon/static/css/main.13eddc23.css",
+    "main.js": "/gfrodriguezclon/static/js/main.89d7314a.js",
+    "index.html": "/gfrodriguezclon/index.html",
+    "main.13eddc23.css.map": "/gfrodriguezclon/static/css/main.13eddc23.css.map",
+    "main.89d7314a.js.map": "/gfrodriguezclon/static/js/main.89d7314a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13eddc23.css",
+    "static/js/main.89d7314a.js"
+  ]
+}
