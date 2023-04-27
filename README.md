@@ -14,7 +14,7 @@ Step 1: Add `homepage` to `package.json`
 Open your `package.json` and add a `homepage` field:
 
 ```js
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://gfrodriguezclon.github.io/gfrodriguezclon/",
 ```
 
 Create React App uses the `homepage` field to determine the root URL in the built HTML file.
