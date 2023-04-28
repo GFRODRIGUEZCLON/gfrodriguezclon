@@ -38,9 +38,9 @@ h3 {
 }
 
 img {
-  display: block;
-  margin: auto;
-  width: auto;
+  display:block;
+  max-width: 100%;
+  margin: auto auto auto auto;
   border-radius: 1rem;
   box-shadow: 3px 1px 5px 1px #000000;
 }
