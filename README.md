@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # apollo-standalone-client
 
 Created with CodeSandbox
