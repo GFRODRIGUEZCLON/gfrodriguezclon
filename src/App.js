@@ -35,7 +35,7 @@ function DisplayLocations() {
     <div key={id}>
       <div className="line"></div>
       <h3>{name}</h3>
-      <img alt="location-reference" src={`${photo}`} />
+      <div className="inbox"><img className="image" alt="location-reference" src={`${photo}`} /></div>
       <br />
       <b className="textB inbox">About this location:</b>
       <p className="text inbox">{description}</p>
