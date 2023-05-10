@@ -27,7 +27,7 @@ const GET_LOCATIONS = gql`
 function DisplayLocations() {
   const { loading, error, data } = useQuery(GET_LOCATIONS);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p className="text inbox">Loading...</p>;
   if (error) return <p>Error : {error.message}</p>;
 
   return data.locations.map(({ id, name, description, photo }) => (
