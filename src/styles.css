@@ -2,11 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap");
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-
 body {
   background: #b9ad69;
 }
@@ -20,13 +15,7 @@ h2 {
   text-align: center;
   text-shadow: 5px 5px 7px #000000;
 }
-.line {
-  border-top: 1px solid #b9ad69;
-  height: 1px;
-  margin: auto 0 auto;
-  max-width: auto;
-  box-shadow: 3px 1px 5px 1px #000000;
-}
+
 h3 {
   display: block;
   font-family: "Roboto", sans-serif;
@@ -37,12 +26,33 @@ h3 {
   text-align: center;
 }
 
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.drop {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
 .image {
   display: block;
   max-width: 100%;
   border-radius: 1rem;
   box-shadow: 3px 1px 5px 1px #000000;
-  filter:brightness()
+  filter: brightness();
+}
+
+.inbox {
+  padding: 0% 6% 1% 6%;
+}
+
+.line {
+  border-top: 1px solid #b9ad69;
+  height: 1px;
+  margin: auto 0 auto;
+  max-width: auto;
+  box-shadow: 3px 1px 5px 1px #000000;
 }
 
 .text {
@@ -55,12 +65,4 @@ h3 {
 .textB {
   font-family: "DM Serif Display", sans-serif;
   font-weight: 600;
-}
-
-.inbox{
-  padding: 0% 6% 1% 6%
-}
-
-.drop {
-  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
